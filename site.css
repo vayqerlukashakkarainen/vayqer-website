@@ -1,0 +1,47 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+}
+
+h1,
+h2,
+p {
+	color: white;
+	font-family: Lato;
+	text-align: center;
+}
+
+.logo {
+	width: 14rem;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 33%;
+	left: 0;
+	right: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-around;
+	left: 0;
+	right: 0;
+}
+footer p {
+	color: gray;
+	font-size: 12px;
+}
+
+.color-gray {
+	color: gray;
+}
